@@ -1,0 +1,327 @@
+
+.login{
+margin-left: 900px;
+margin-top: -950px;
+display: block;
+
+}
+.login h1 {
+
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+}
+.login h2 {
+    margin: -15px 0 0 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #8692A6;
+}
+
+hr{
+    margin-left: 900px;
+    margin-top: 50px;
+    height: 0px;
+    width: 400px;
+    border: 1px solid #F5F5F5;     
+}
+ .form {
+    margin-left: 900px;
+    margin-top : 30px;
+ }
+ label {
+    color:#696F79;
+ }
+ input{
+    margin: 12px;
+    width: 400px;
+    height: 55px;
+    background: #FFFFFF;
+    color:#696F79;
+    border:none;
+    box-shadow: 0px 15px 40px 5px #EDEDED;
+    border-radius: 30px;
+ }
+
+ .show {
+  
+    color: black;
+    border: none;
+    background: none;
+    cursor: pointer;
+ }
+ .back {
+    position: absolute;
+    margin-left: 710px;
+    margin-top: -985px;
+    display: flex;
+ }
+ .back button {
+    color:#8692A6;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 14px;
+    background: none;
+    border:none;
+    cursor: pointer;
+ }
+
+ .backicon {
+   margin: 4px;
+ }
+
+ .rp input {
+    
+    width: 15px;
+    height: 15px; 
+ }
+
+ .loginn {
+    color: #FFFFFF;
+    background-color: #8692A6;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 17px;
+    width: 400px;
+    height: 55px;
+    margin-left: 920px;
+    margin-top: 35px;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;   
+  }
+   .loginn:hover {
+     background-color: #696F79;
+   }
+
+   .loggoogle {
+    position: relative;
+    color: black;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 17px;
+    width: 400px;
+    height: 55px;
+    margin-left: 920px;
+    margin-top: 35px;
+    border:none;
+    border-radius: 30px;
+    box-shadow: 0px 15px 40px 5px #EDEDED;
+    cursor: pointer;  
+   }
+
+ button span img {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.hrr {
+   height: 0px;
+   width: 200px; 
+   
+}
+.hrrr {
+    height: 0px;
+    width: 200px;
+    margin-left: 33px;
+   
+}
+h6 {
+color: #BABABA;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+text-indent: 10px;
+line-height: 15px;
+margin-left: 20px;
+margin-bottom: 1px;
+margin-top: auto;
+}
+.linee {
+    display: inline-flex;
+}
+
+.zoom-container {
+    transform: scale(0.9);
+    transform-origin: 0 0;
+}
+
+.container-quote{
+ display: flex;
+ align-items: center; 
+ 
+ 
+} 
+
+.container-quote p {
+    margin-left: -390px;
+    margin-top: -80px;
+    color: #FFFFFF;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+}
+.container-quote p span {
+    font-weight:600;
+    line-height: 45px; 
+}
+.pp {
+   position: absolute;
+   margin-left: 250px;
+   margin-top:-480px;   
+}
+.ppp {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+/* .all {
+      
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;  
+ } */
+
+@media screen and (min-width:768px){
+   .all{
+      /* display: grid; */
+      display: flex;
+      width: 100%;
+      height: 100vh; 
+      flex-wrap:nowrap;
+      align-items: center;
+      /* grid-template-columns: repeat(2, 1fr); */
+      /* place-items: start end; */
+      
+      justify-content:center;
+   }
+   
+   .container-quote {
+    
+      align-self: flex-start;
+      justify-content:flex-start;
+      justify-content: flex-start;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /* transform: scale(1.8);
+      transform-origin: 0 0; */
+    
+    }
+   
+    .formm{
+      width: 60%;
+      height: 100vh;
+      justify-content: flex-end;
+      align-self:flex-end;
+      align-items: flex-end;
+      transform: scale(0.5);
+      transform-origin: 0 0;
+      /* flex-direction: row; */
+      
+    }
+ 
+      .back{
+       width: 100%;
+       transform: scale(2.2);
+       transform-origin: 0 0;
+       margin-top: 0;
+       margin-left: 100px;
+      }
+      .login{
+       width: 100%;
+       position: absolute;
+       margin-top: 200px;
+       margin-left: 300px;
+       transform: scale(2.8);
+       transform-origin: 0 0;
+      }
+     .form {
+       width: 100%;
+       transform: scale(2.8);
+       transform-origin: 0 0;
+      margin-top: 600px;
+      margin-left: 300px;
+     }
+     .but {
+       width: 100%;
+       transform: scale(2.8);
+       transform-origin: 0 0;
+       margin-top: 550px;
+       margin-left: -2220px;
+     }
+     .rp {
+       position: absolute;
+       width: 100%;
+       margin-top: -10px;
+       margin-left: auto;
+     }
+     .show{
+      position: absolute;
+      margin-top: 30px !important;
+      margin-left: -90px !important;
+     }
+ 
+
+}
+
+
+
+
+
+ @media screen and (max-width: 658px) {
+  
+   .container-quote {
+     display:none;
+   }
+
+     .back{
+      width: 100%;
+      transform: scale(2.2);
+      transform-origin: 0 0;
+      margin-top: 0;
+      margin-left: 100px;
+     }
+     .login{
+      width: 100%;
+      position: absolute;
+      margin-top: 200px;
+      margin-left: 100px;
+      transform: scale(2.8);
+      transform-origin: 0 0;
+     }
+    .form {
+      width: 100%;
+      transform: scale(2.8);
+      transform-origin: 0 0;
+     margin-top: 500px;
+     margin-left: 200px;
+    }
+    .but {
+      width: 100%;
+      transform: scale(2.8);
+      transform-origin: 0 0;
+      margin-top: 400px;
+      margin-left: -2350px;
+    }
+    .rp {
+      position: absolute;
+      width: 100%;
+      margin-top: -10px;
+      margin-left: auto;
+    }
+    .show{
+     position: absolute;
+     margin-top: -50px !important;
+     margin-left: 350px !important;
+    }
+   } 
+   

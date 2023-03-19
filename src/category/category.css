@@ -1,0 +1,26 @@
+.startcategory {
+    position: absolute;
+    margin-top: 72vh;
+    margin-left: 135vh;
+    color: #FFFFFF;
+    background: #8692A6;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    width: 150px;
+    height: 55px;
+    border:none;
+    box-shadow: 0px 15px 40px 5px #EDEDED;
+    border-radius: 30px;
+    cursor: pointer; 
+   } 
+   /* .imagesize{
+    padding: 350px;
+   
+   } */
+   .imagesize {
+    display: flex;
+    align-items: flex-start;
+    transform: scale(0.9);
+    transform-origin: 0 0;
+  }

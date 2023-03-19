@@ -1,0 +1,23 @@
+export const questions=[{"category":"Geography",
+"id":"639c9d9d929b90846f2fc96d",
+"correctAnswer":"Germany",
+"incorrectAnswers":["France","Austria","Poland"],
+"question":"The medieval-style castle of Neuschwanstein is located in which country?",
+"tags":["architecture","geography","buildings","tourist_attractions",
+"castles"],
+"type":"Multiple Choice",
+"difficulty":"medium",
+"regions":[],
+"isNiche":false},
+
+{"category":"Geography",
+"id":"62373f4ecb85f7ce9e949c8d",
+"correctAnswer":"Afghanistan",
+"incorrectAnswers":["Malawi","Pakistan","Syria"],
+"question":"Kabul is the capital city of which country?",
+"tags":["capital_cities","geography"],
+"type":"Multiple Choice",
+"difficulty":"medium","regions":[],
+"isNiche":false},
+
+{"category":"Geography","id":"622a1c387cc59eab6f950997","correctAnswer":"India","incorrectAnswers":["Bhutan","Nepal","Thailand"],"question":"Which of these countries borders Bangladesh?","tags":["geography"],"type":"Multiple Choice","difficulty":"medium","regions":[],"isNiche":false},{"category":"Geography","id":"625ea001796f721e95543fc7","correctAnswer":"Ukraine","incorrectAnswers":["Ghana","Denmark","Puerto Rico"],"question":"Which country's flag can be described as 'Two equal horizontal bands of blue and yellow.'?","tags":["flags","geography"],"type":"Multiple Choice","difficulty":"medium","regions":[],"isNiche":false}]
